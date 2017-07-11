@@ -5,7 +5,7 @@
         :class="{ 'layout--reverse': portfolioItemMediaLeft }"
       )
 
-        .layout__item.w-100.w-50-m.w-50-l.d-f.ai-c
+        .layout__item.w-100.w-60-m.w-60-l.d-f.ai-c
           div(
             :class="[\
               { 'pl-4-l': portfolioItemMediaLeft }, \
@@ -22,7 +22,7 @@
                 :linkIcon='portfolioItemIcon' 
               )
 
-        .layout__item.w-100.w-50-m.w-50-l
+        .layout__item.w-100.w-40-m.w-40-l
           .portfolio-item__media.hover-shrink
             a(
               target='_blank' 

@@ -1,5 +1,5 @@
 <template lang="pug">
-a.link(
+a.link.d-ib.h6.black.p-r(
   target='_blank' 
   :href='linkHref'
 )
@@ -23,14 +23,10 @@ export default {
 <style>
 .link {
   bottom: -6px;
-  color: #000;
-  display: inline-block;
-  font-size: 1rem;
-  position: relative;
   overflow: hidden;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  font-style: normal !important;
+  padding-left: 0;
+  padding-right: 0;
+  font-style: normal;
 }
 
 .link:after,

@@ -13,7 +13,7 @@
     .layout.layout--flush.d-f.fw-w.mb-4
 
       .layout__item.w-100.w-33-m.w-25-l
-        .portfolio__item.hover-shrink.ph-1
+        .portfolio__item.hover-shrink.ph-2
           img.d-b.one-whole(src='http://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1499671872/portfolio_ghkweb.jpg')
           .portfolio__item__content
             .pt-3.pb-4
@@ -21,7 +21,7 @@
               p.gray The site you are on right now was built with Vue PWA.
 
       .layout__item.w-100.w-33-m.w-25-l
-        .portfolio__item.hover-shrink.ph-1
+        .portfolio__item.hover-shrink.ph-2
           a(target='_blank', href='https://youngcodersau.com')
             img.d-b.one-whole(src='http://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1499671871/young-coders_ss1vqi.jpg')
             .portfolio__item__content
@@ -30,7 +30,7 @@
                 p.gray Young Coders was built Nuxt.js and uses an API driven Contentful CMS. The site is deployed with Netlify.
 
       .layout__item.w-100.w-33-m.w-25-l
-        .portfolio__item.hover-shrink.ph-1
+        .portfolio__item.hover-shrink.ph-2
           a(target='_blank', href='https://kaydwithers.github.io/vue-adventure/')
             img.d-b.one-whole(src='http://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/vue-adventure.jpg')
             .portfolio__item__content
@@ -40,7 +40,7 @@
                 p.h6.gray (Work in progress)
 
       .layout__item.w-100.w-33-m.w-25-l
-        .portfolio__item.hover-shrink.ph-1
+        .portfolio__item.hover-shrink.ph-2
           a(target='_blank', href='https://kaydwithers.github.io/5e-character-sheet/')
             img.d-b.one-whole(src='http://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/5e-character-sheet.jpg')
             .portfolio__item__content
@@ -50,7 +50,7 @@
                 p.h6.gray (Work in progress)
 
       .layout__item.w-100.w-33-m.w-25-l
-        .portfolio__item.hover-shrink.ph-1
+        .portfolio__item.hover-shrink.ph-2
           a(target='_blank', href='http://pugbike.com/pepper')
             img.d-b.one-whole(src='http://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/pepper.jpg')
             .portfolio__item__content
@@ -59,7 +59,7 @@
                 p.gray One of the greatest dogs of all time.
 
       .layout__item.w-100.w-33-m.w-25-l
-        .portfolio__item.hover-shrink.ph-1
+        .portfolio__item.hover-shrink.ph-2
           a(target='_blank', href='https://kaydwithers.github.io/css-grid-framework/')
             img.d-b.one-whole(src='http://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/css-grid-framework.jpg')
             .portfolio__item__content
