@@ -1,6 +1,7 @@
 <template lang="pug">
 a.link.d-ib.h6.black.p-r(
   rel='noopener noreferrer' 
+  role='button' 
   target='_blank' 
   :href='linkHref'
 )

@@ -14,7 +14,10 @@
 
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
-          img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1499671872/portfolio_ghkweb.jpg')
+          img.d-b.one-whole(
+            src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1499671872/portfolio_ghkweb.jpg' 
+            alt=''
+          )
           .portfolio__item__content
             .pt-3.pb-4
               p.black.tt-u.ls-1.fw-6.mb-1 Portfolio
@@ -23,7 +26,10 @@
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
           a(target='_blank' rel='noopener noreferrer' href='https://youngcodersau.com')
-            img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1499671871/young-coders_ss1vqi.jpg')
+            img.d-b.one-whole(
+              src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1499671871/young-coders_ss1vqi.jpg' 
+              alt=''
+            )
             .portfolio__item__content
               .pt-3.pb-4
                 p.black.tt-u.ls-1.fw-6.mb-1 Young Coders ʕ•ᴥ•ʔ
@@ -32,7 +38,10 @@
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
           a(target='_blank' rel='noopener noreferrer' href='https://kaydwithers.github.io/vue-adventure/')
-            img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/vue-adventure.jpg')
+            img.d-b.one-whole(
+              src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/vue-adventure.jpg' 
+              alt=''
+            )
             .portfolio__item__content
               .pt-3.pb-4
                 p.black.tt-u.ls-1.fw-6.mb-1 Vue Adventure
@@ -42,7 +51,10 @@
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
           a(target='_blank' rel='noopener noreferrer' href='https://kaydwithers.github.io/5e-character-sheet/')
-            img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/5e-character-sheet.jpg')
+            img.d-b.one-whole(
+              src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/5e-character-sheet.jpg' 
+              alt=''
+            )
             .portfolio__item__content
               .pt-3.pb-4
                 p.black.tt-u.ls-1.fw-6.mb-1 Character Sheet
@@ -52,7 +64,10 @@
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
           a(target='_blank' rel='noopener noreferrer' href='https://pugbike.com/pepper')
-            img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/pepper.jpg')
+            img.d-b.one-whole(
+              src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/pepper.jpg' 
+              alt=''
+            )
             .portfolio__item__content
               .pt-3.pb-4
                 p.black.tt-u.ls-1.fw-6.mb-1 Pepper
@@ -61,7 +76,10 @@
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
           a(target='_blank' rel='noopener noreferrer' href='https://kaydwithers.github.io/css-grid-framework/')
-            img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/css-grid-framework.jpg')
+            img.d-b.one-whole(
+              src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/css-grid-framework.jpg' 
+              alt=''
+            )
             .portfolio__item__content
               .pt-3.pb-4
                 p.black.tt-u.ls-1.fw-6.mb-1 CSS Grid framework

@@ -1,80 +1,80 @@
 <template>
-  <div class="hero  p-r  z-1">
+<div class="hero  p-r  z-1">
 
-    <div class="hero__particles  p-r  z-3">
-      <particles />
-    </div>
-
-    <div class="hero__overlay  p-r  z-1">
-    </div>
-
-    <div class="hero__video">
-      <iframe 
-        class="z-1"
-        id="ytplayer" 
-        src="https://www.youtube.com/embed/c5rWB_fS5ao?controls=0&enablejsapi=1&modestbranding=0&cc_load_policy=1&showinfo=0&rel=0&loop=1&iv_load_policy=3&playlist=c5rWB_fS5ao" 
-        frameborder="0"
-      >
-        <title>Northern Lights</title>
-      </iframe>
-    </div>
-
-    <div class="hero__header  p-r  z-4">
-      <div class="page">
-        <div class="layout">
-          <div class="layout__item">
-            <app-navigation />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="hero__content  p-r  z-3  tt-u  ls-8  pv-5  lh-1-5">
-      <h1 class="h2  h1-l  fw-6">
-        {{ heading }}
-      </h1>
-
-      <h2 class="h3  h2-l  tt-u">
-        {{ headingSub }}
-      </h2>
-    </div>
-
-    <div class="hero__footer  p-r  z-3  pv-2">
-      <div class="page">
-        <div class="layout">
-          <div class="layout__item">
-            <p class="scrollto  white  h4  h5-l  ta-r">
-              <a 
-                class="pt-3  pl-3  ts-1"
-                href="#" 
-                v-scroll-to="{
-                  el: '#portfolio',
-                  duration: 500,
-                  easing: 'ease',
-                }"
-              >
-                <svg id="scrollto__arrow" class="scrollto__arrow  pr-1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 84.8 84.4">
-                  <title>Arrow down</title>
-                  <g>
-                    <polygon fill="#fff" points="1.4,42 9.7,33.7 36.4,60.4 36.4,1 48.3,1 48.3,60.4 75.1,33.6 83.4,42 42.4,83" />
-                    <path fill="#fff" d="M47.3,2v60.8L75.1,35l6.9,7L42.4,81.6L2.8,42l6.9-6.9l27.7,27.7V2H47.3 M49.3,0h-2h-9.9h-2v2v56L11.1,33.7 l-1.4-1.4l-1.4,1.4l-6.9,6.9L0,42l1.4,1.4L41,83l1.4,1.4l1.4-1.4l39.6-39.6l1.4-1.4l-1.4-1.4l-6.9-7l-1.4-1.4l-1.4,1.4L49.3,58V2V0 L49.3,0z" />
-                  </g>
-                </svg>
-                Scroll <span class="gray  hover-white">to view portfolio</span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- videos
-      c5rWB_fS5ao - Aurora
-      NM2wtte1JRE - ISS
-      8OiWoUNZ8kM - ISS
-    -->
-
+  <div class="hero__particles  p-r  z-3">
+    <particles />
   </div>
+
+  <div class="hero__overlay  p-r  z-1">
+  </div>
+
+  <div class="hero__video">
+    <iframe 
+      class="z-1"
+      id="ytplayer" 
+      src="https://www.youtube.com/embed/c5rWB_fS5ao?controls=0&enablejsapi=1&modestbranding=0&cc_load_policy=1&showinfo=0&rel=0&loop=1&iv_load_policy=3&playlist=c5rWB_fS5ao" 
+      frameborder="0"
+      title="Northern Lights"
+    >
+    </iframe>
+  </div>
+
+  <div class="hero__header  p-r  z-4">
+    <div class="page">
+      <div class="layout">
+        <div class="layout__item">
+          <app-navigation />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__content  p-r  z-3  tt-u  ls-8  pv-5  lh-1-5">
+    <h1 class="h2  h1-l  fw-6">
+      {{ heading }}
+    </h1>
+
+    <h2 class="h3  h2-l  tt-u">
+      {{ headingSub }}
+    </h2>
+  </div>
+
+  <div class="hero__footer  p-r  z-3  pv-2">
+    <div class="page">
+      <div class="layout">
+        <div class="layout__item">
+          <p class="scrollto  white  h4  h5-l  ta-r">
+            <a 
+              class="pt-3  pl-3  ts-1"
+              href="#" 
+              v-scroll-to="{
+                el: '#portfolio',
+                duration: 500,
+                easing: 'ease',
+              }"
+            >
+              <svg id="scrollto__arrow" class="scrollto__arrow  pr-1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 84.8 84.4">
+                <title>Arrow down</title>
+                <g>
+                  <polygon fill="#fff" points="1.4,42 9.7,33.7 36.4,60.4 36.4,1 48.3,1 48.3,60.4 75.1,33.6 83.4,42 42.4,83" />
+                  <path fill="#fff" d="M47.3,2v60.8L75.1,35l6.9,7L42.4,81.6L2.8,42l6.9-6.9l27.7,27.7V2H47.3 M49.3,0h-2h-9.9h-2v2v56L11.1,33.7 l-1.4-1.4l-1.4,1.4l-6.9,6.9L0,42l1.4,1.4L41,83l1.4,1.4l1.4-1.4l39.6-39.6l1.4-1.4l-1.4-1.4l-6.9-7l-1.4-1.4l-1.4,1.4L49.3,58V2V0 L49.3,0z" />
+                </g>
+              </svg>
+              Scroll <span class="gray  hover-white">to view portfolio</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- videos
+    c5rWB_fS5ao - Aurora
+    NM2wtte1JRE - ISS
+    8OiWoUNZ8kM - ISS
+  -->
+
+</div>
 </template>
 
 <script>
