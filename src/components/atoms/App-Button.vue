@@ -1,5 +1,6 @@
 <template lang="pug">
 a.link.d-ib.h6.black.p-r(
+  rel='noopener noreferrer' 
   target='_blank' 
   :href='linkHref'
 )

@@ -9,6 +9,7 @@
 
           p.mb-1
             a.hover-gray(
+              rel='noopener noreferrer'
               target='_blank' 
               href='https://github.com/kaydwithers'
             ) GitHub
@@ -20,18 +21,21 @@
 
           p.pl-4-l.mb-1
             a.hover-gray(
+              rel='noopener noreferrer'
               target='_blank' 
               href='https://twitter.com/kaydw'
             ) Twitter
 
           p.pl-4-l.mb-1
             a.hover-gray(
+              rel='noopener noreferrer'
               target="_blank" 
               href='https://www.linkedin.com/in/kayd-withers'
             ) LinkedIn
 
           p.pl-4-l
             a.hover-gray(
+              rel='noopener noreferrer'
               target="_blank" 
               href='https://www.meetup.com/members/187458390/'
             ) Meetup

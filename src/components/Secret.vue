@@ -7,6 +7,7 @@
         <a 
           @click.prevent="tune()"
           class="gray  hover-gray" 
+          rel='noopener noreferrer'
           target="_blank" 
         >
           π

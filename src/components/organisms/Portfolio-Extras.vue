@@ -22,7 +22,7 @@
 
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
-          a(target='_blank', href='https://youngcodersau.com')
+          a(target='_blank' rel='noopener noreferrer' href='https://youngcodersau.com')
             img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1499671871/young-coders_ss1vqi.jpg')
             .portfolio__item__content
               .pt-3.pb-4
@@ -31,7 +31,7 @@
 
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
-          a(target='_blank', href='https://kaydwithers.github.io/vue-adventure/')
+          a(target='_blank' rel='noopener noreferrer' href='https://kaydwithers.github.io/vue-adventure/')
             img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/vue-adventure.jpg')
             .portfolio__item__content
               .pt-3.pb-4
@@ -41,7 +41,7 @@
 
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
-          a(target='_blank', href='https://kaydwithers.github.io/5e-character-sheet/')
+          a(target='_blank' rel='noopener noreferrer' href='https://kaydwithers.github.io/5e-character-sheet/')
             img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/5e-character-sheet.jpg')
             .portfolio__item__content
               .pt-3.pb-4
@@ -51,7 +51,7 @@
 
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
-          a(target='_blank', href='https://pugbike.com/pepper')
+          a(target='_blank' rel='noopener noreferrer' href='https://pugbike.com/pepper')
             img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/pepper.jpg')
             .portfolio__item__content
               .pt-3.pb-4
@@ -60,7 +60,7 @@
 
       .layout__item.w-100.w-33-m.w-25-l
         .portfolio__item.hover-shrink.ph-1-m.ph-2-l
-          a(target='_blank', href='https://kaydwithers.github.io/css-grid-framework/')
+          a(target='_blank' rel='noopener noreferrer' href='https://kaydwithers.github.io/css-grid-framework/')
             img.d-b.one-whole(src='https://res.cloudinary.com/dvjpaoffl/image/upload/w_550,c_fill,f_auto,q_auto:best/v1491710129/portfolio/css-grid-framework.jpg')
             .portfolio__item__content
               .pt-3.pb-4

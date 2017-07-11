@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-pwa",
-  "short_name": "portfolio-pwa",
+  "name": "portfolio",
+  "short_name": "portfolio",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",

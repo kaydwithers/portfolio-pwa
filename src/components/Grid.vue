@@ -10,7 +10,7 @@
   <div class="d-g  gg  gtr-2  gtc-3">
 
     <!-- Column 1 -->
-    <a href="https://www.holden.com.au/cars/commodore" target="_blank" class="carlines  grs-1  gre-3  gcs-1  gce-2  as-s">
+    <a href="https://www.holden.com.au/cars/commodore" target="_blank" rel="noopener noreferrer" class="carlines  grs-1  gre-3  gcs-1  gce-2  as-s">
       <div class="p-ac">
         <h4>Holden</h4>
         <h4>Commodore</h4>
@@ -18,14 +18,14 @@
     </a>
 
     <!-- Column 2 -->
-    <a href="https://www.holden.com.au/cars/commodore/limited-edition" target="_blank" class="commodore  grs-1  gre-2  gcs-2  gce-4  as-s">
+    <a href="https://www.holden.com.au/cars/commodore/limited-edition" target="_blank" rel="noopener noreferrer" class="commodore  grs-1  gre-2  gcs-2  gce-4  as-s">
       <div class="p-ac">
         <h4>Holden Commodore</h4>
         <h4>Limited Edition</h4>
       </div>
     </a>
 
-    <a href="https://www.holden.com.au/accessories/colorado" target="_blank" class="colorado  grs-2  gre-3  gcs-2  gce-3  as-s">
+    <a href="https://www.holden.com.au/accessories/colorado" target="_blank" rel="noopener noreferrer" class="colorado  grs-2  gre-3  gcs-2  gce-3  as-s">
       <div class="p-ac">
         <h4>Holden Colorado</h4>
         <h4>Accessories</h4>
@@ -33,7 +33,7 @@
     </a>
 
     <!-- Column 3 -->
-    <a href="https://www.holden.com.au/cars/colorado" target="_blank" class="carlines  grs-2  gre-3  gcs-3  gce-4  as-s">
+    <a href="https://www.holden.com.au/cars/colorado" target="_blank" rel="noopener noreferrer" class="carlines  grs-2  gre-3  gcs-3  gce-4  as-s">
       <div class="p-ac">
         <h4>Holden</h4>
         <h4>Colorado</h4>
