@@ -6,14 +6,14 @@
       )
 
         .layout__item.w-100.w-60-m.w-60-l.d-f.ai-c
-          div(
+          div.ph-4-l(
             :class="[\
-              { 'pl-4-l': portfolioItemMediaLeft }, \
-              { 'pr-4-l': !portfolioItemMediaLeft }\
+              { 'pl-3-m': portfolioItemMediaLeft }, \
+              { 'pr-3-m': !portfolioItemMediaLeft }\
             ]"
           )
-            p.h6.h5-m.h5-l.tt-u.ls-1.fw-6.mb-2 {{ portfolioItemHeading }}
-            p.h6.h5-m.h5-l.gray.mb-2 {{ portfolioItemContent }}
+            p.h6.h6-m.h5-l.tt-u.ls-1.fw-6.mb-2 {{ portfolioItemHeading }}
+            p.h6.h6-m.h5-l.gray.mb-2 {{ portfolioItemContent }}
 
             .mb-2
               App-Button( 
@@ -28,7 +28,7 @@
               target='_blank' 
               :href='portfolioItemHref'
             )
-              // <img class="d-b  w-100" src="http://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg">
+              // <img class="d-b  w-100" src="https://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg">
 
               video.d-b.w-100( 
                 :poster="portfolioItemPoster" 
@@ -60,7 +60,7 @@
       portfolioItemHeading: { default: 'PH Heading' },
       portfolioItemContent: { default: 'PH Content' },
       portfolioItemVideo: { default: 'https://holden.com.au/resources/media/videos/commodore/2017/2017-01-commodore-svp-overview-hero.mp4' },
-      portfolioItemPoster: { default: 'http://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg' },
+      portfolioItemPoster: { default: 'https://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg' },
       portfolioItemIcon: { default: '↛' },
       portfolioItemHref: { default: '' }
     }

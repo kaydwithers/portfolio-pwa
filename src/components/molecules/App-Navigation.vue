@@ -7,12 +7,12 @@
       .navigation__overlay
 
         .navigation__overlay-content.lh-2
-          router-link.h2.h1-l.fw-6.ph-3.db.d-ib-m.gray.hover-white(
+          router-link.h2.h1-l.fw-6.ph-3.d-b.d-b-m.d-ib-l.gray.hover-white(
             @click.native='$store.state.toggle.menuActive = !$store.state.toggle.menuActive'
             to='/about'
           ) About
 
-          router-link.h2.h1-l.fw-6.ph-3.db.d-ib-m.gray.hover-white(
+          router-link.h2.h1-l.fw-6.ph-3.d-b.d-b-m.d-ib-l.gray.hover-white(
             @click.native='$store.state.toggle.menuActive = !$store.state.toggle.menuActive'
             to='/contact'
           ) Contact

@@ -65,7 +65,7 @@ export default {
 }
 
 .carlines { 
-  background: url('http://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover;
+  background: url('https://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover;
   transition: 2s background;
   will-change: background;
 }
@@ -73,12 +73,12 @@ export default {
   .carlines:hover { 
     background: 
       linear-gradient(to bottom, white 0%, black 100%), 
-      url('http://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover;
+      url('https://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover;
     background-blend-mode: soft-light;
   }
 
-.commodore { background: url('http://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover; }
-.colorado { background: url('http://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover; }
+.commodore { background: url('https://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover; }
+.colorado { background: url('https://res.cloudinary.com/dvjpaoffl/image/upload/v1486636435/cure-wounds_yral10.jpg') no-repeat 0 0 / cover; }
 
 .d-g   { display: grid; }
 .gg    { grid-gap: var(--spacing); }
