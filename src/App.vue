@@ -23,6 +23,7 @@
 <style>
 /* Variables */
 :root {
+  --animation-fade-up:   animation-fade-up .75s ease-in-out;
   --global-font-size:    18px;
   --global-line-height:  1.8;
   --spacing-extra-small: calc(var(--spacing-small) / 2);
@@ -676,5 +677,38 @@ a {
   .pv-3-l { padding-top: var(--spacing-medium); padding-bottom: var(--spacing-medium); }
   .pv-4-l { padding-top: var(--spacing-large); padding-bottom: var(--spacing-large); }
   .pv-5-l { padding-top: var(--spacing-extra-large); padding-bottom: var(--spacing-extra-large); }
+}
+
+
+
+/* Animations */
+.animation-fade-up 0% {
+  opacity: 0;
+  transform: translate3d(0, 10px, 0)
+}
+
+.animation-fade-up 75% {
+  opacity: 0;
+  transform: translate3d(0, 10px, 0)
+}
+
+.animation-fade-up 100% {
+  opacity: 1;
+  transform: translate3d(0, 0, 0)
+}
+
+@keyframes animation-fade-up {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0)
+  }
+  75% {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0)
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
 }
 </style>

@@ -1,49 +1,37 @@
+<template lang="pug">
+.hamburger
+  button.hamburger-icon.pt-3.pb-3.pr-3.z-4( 
+    aria-controls="menu" 
+    aria-expanded="false" 
+    aria-hidden="false" 
+    aria-label="menu" 
+    @click="toggleMenu()" 
+    tabindex="0"
+  )
+    .bar-wrapper(
+      :class="{ 'is-active': $store.state.toggle.menuActive }"
+    )
+      .bar
+      .bar
+      .bar
 
-<template>
-  <div class="hamburger">
-
-    <button 
-      @click="toggleMenu()"
-      aria-controls="menu" 
-      class="hamburger-icon  pt-3  pb-3  pr-3  z-4" 
-      aria-label="menu" 
-      aria-hidden="false" 
-      tabindex="0" 
-      aria-expanded="false"
-    >
-      <div 
-        class="bar-wrapper"
-        :class="{ 'is-active': $store.state.toggle.menuActive }"
-      >
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </button>
-
-  </div>
 </template>
 
-
-
 <script>
-  import { mapMutations } from 'vuex'
+import { mapMutations } from 'vuex'
 
-  export default {
-    name: 'navigation',
+export default {
+  name: 'navigation',
 
-    methods: {
-      ...mapMutations([
-        'toggleMenu'
-      ])
-    }
+  methods: {
+    ...mapMutations([
+      'toggleMenu'
+    ])
   }
+}
 </script>
 
-
-
-<style scoped>
-
+<style>
 .hamburger-icon {
   background-color: transparent;
   border: 0;
@@ -144,5 +132,4 @@
   50%  { transform: rotate(40deg); }
   100% { transform: rotate(45deg); }
 }
-
 </style>

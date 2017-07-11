@@ -31,6 +31,11 @@ export default {
 </script>
 
 <style>
+.navigation, 
+.scrollto {
+  animation: var(--animation-fade-up);
+}
+
 .navigation {
   color: #fff;
 }

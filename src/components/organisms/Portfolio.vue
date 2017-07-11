@@ -2,7 +2,7 @@
 .portfolio
   Portfolio-Item(
     :portfolioItemMediaLeft='true', 
-    portfolioItemHeading='Commodore Limited Edition', 
+    portfolioItemHeading='🚗 Commodore Limited Edition', 
     portfolioItemContent='Each carline is built up with a selection of components. We use Fabricator as an integrated pattern library. Each time a new component is created, Fabricator automatically adds it to the pattern library. The client can then go into the pattern libarary and choose what sort of components they would like to use for the next project.', 
     portfolioItemVideo='https://holden.com.au/resources/media/videos/commodore/2017/2017-01-commodore-svp-overview-hero.mp4', 
     portfolioItemPoster='https://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg', 
