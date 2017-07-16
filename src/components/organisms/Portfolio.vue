@@ -1,6 +1,5 @@
 <template lang="pug">
 .portfolio
-
   portfolio-item(
     :portfolioItemMediaLeft='true', 
     portfolioItemHeading='🚗 Commodore Limited Edition', 
@@ -46,7 +45,7 @@
 
 <script>
 import PortfolioExtras from '@/components/organisms/Portfolio-Extras'
-import PortfolioItem from '@/components/molecules/portfolio-item'
+import PortfolioItem from '@/components/molecules/Portfolio-Item'
 
 export default {
   name: 'portfolio',
