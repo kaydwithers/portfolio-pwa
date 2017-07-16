@@ -1,10 +1,16 @@
 <template lang="pug">
-.navigation
-  hamburger
+.navigation.d-f.ai-c
+  hamburger.d-ib
+  transition(name='fade')
+    router-link.h3.d-ib.z-4(
+      @click.native='$store.state.toggle.menuActive = !$store.state.toggle.menuActive' 
+      v-show='$store.state.toggle.menuActive' 
+      to='/'
+    ) 🏡
 
   transition(name='fade')
     div(v-show='$store.state.toggle.menuActive')
-      .navigation__overlay
+      .navigation__overlay.z-1
 
         .navigation__overlay-content.lh-2
           router-link.h2.h1-l.fw-6.ph-3.d-b.d-b-m.d-ib-l.gray.hover-white(

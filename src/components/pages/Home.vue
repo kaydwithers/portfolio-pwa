@@ -1,9 +1,10 @@
 <template lang="pug">
 div
-  App-Hero
-  Introduction
-  Portfolio
-  App-Footer
+  app-hero
+  introduction
+  portfolio
+  app-footer
+
 </template>
 
 <script>

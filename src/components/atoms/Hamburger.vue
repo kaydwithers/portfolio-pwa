@@ -1,8 +1,8 @@
 <template lang="pug">
 .hamburger
-  button.hamburger-icon.pt-3.pb-3.pr-3.z-4( 
+  button.hamburger-icon.pt-3.pb-3.pr-2.z-4(
     aria-controls="menu" 
-    aria-expanded="false" 
+    :aria-expanded="$store.state.toggle.menuActive" 
     aria-hidden="false" 
     aria-label="menu" 
     @click="toggleMenu()" 
@@ -22,6 +22,16 @@ import { mapMutations } from 'vuex'
 
 export default {
   name: 'navigation',
+
+  props: {
+    ariaHidden: { default: false }
+  },
+
+  // data () {
+  //   return {
+
+  //   }
+  // },
 
   methods: {
     ...mapMutations([

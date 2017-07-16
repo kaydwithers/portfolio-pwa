@@ -1,73 +1,69 @@
 <template lang="pug">
-  .portfolio-item
-    .page
-      .layout.layout--flush.d-f.fw-w.mb-4(
-        :class="{ 'layout--reverse': portfolioItemMediaLeft }"
-      )
+.portfolio-item
+  .page
+    .layout.layout--flush.d-f.fw-w.mb-4(
+      :class="{ 'layout--reverse': portfolioItemMediaLeft }"
+    )
 
-        .layout__item.w-100.w-60-m.w-60-l.d-f.ai-c
-          div.ph-4-l(
-            :class="[\
-              { 'pl-3-m': portfolioItemMediaLeft }, \
-              { 'pr-3-m': !portfolioItemMediaLeft }\
-            ]"
-          )
-            p.h6.h6-m.h5-l.tt-u.ls-1.fw-6.mb-2 {{ portfolioItemHeading }}
-            p.h6.h6-m.h5-l.gray.mb-2 {{ portfolioItemContent }}
+      .layout__item.w-100.w-60-m.w-60-l.d-f.ai-c
+        div.ph-4-l(
+          :class="[\
+            { 'pl-3-m': portfolioItemMediaLeft }, \
+            { 'pr-3-m': !portfolioItemMediaLeft }\
+          ]"
+        )
+          p.h6.h6-m.h5-l.tt-u.ls-1.fw-6.mb-2 {{ portfolioItemHeading }}
+          p.h6.h6-m.h5-l.gray.mb-2 {{ portfolioItemContent }}
 
-            .mb-2
-              App-Button( 
-                :linkHref='portfolioItemHref' 
-                linkText='Visit site'
-                :linkIcon='portfolioItemIcon' 
-              )
-
-        .layout__item.w-100.w-40-m.w-40-l
-          .portfolio-item__media.hover-shrink
-            a(
-              target='_blank' 
-              :href='portfolioItemHref'
+          .mb-2
+            App-Button( 
+              :linkHref='portfolioItemHref' 
+              linkText='Visit site'
+              :linkIcon='portfolioItemIcon' 
             )
-              // <img class="d-b  w-100" src="https://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg">
 
-              video.d-b.w-100( 
-                :poster="portfolioItemPoster" 
-                preload 
-                loop 
-                autoplay 
-                muted
-              )
-                source(type='video/mp4' :src='portfolioItemVideo')
+      .layout__item.w-100.w-40-m.w-40-l
+        .portfolio-item__media.hover-shrink
+          a(
+            target='_blank' 
+            :href='portfolioItemHref'
+          )
+            // <img class="d-b  w-100" src="https://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg">
 
-              .portfolio-item__media__content
-                .as-c
-                  p.white {{ portfolioItemIcon }}
+            video.d-b.w-100( 
+              :poster="portfolioItemPoster" 
+              preload 
+              loop 
+              autoplay 
+              muted
+            )
+              source(type='video/mp4' :src='portfolioItemVideo')
+
+            .portfolio-item__media__content
+              .as-c
+                p.white {{ portfolioItemIcon }}
 
 </template>
 
-
-
 <script>
-  import AppButton from '@/components/atoms/App-Button'
+import AppButton from '@/components/atoms/App-Button'
 
-  export default {
-    name: 'portfolio',
-    components: {
-      AppButton
-    },
-    props: {
-      portfolioItemMediaLeft: { default: true },
-      portfolioItemHeading: { default: 'PH Heading' },
-      portfolioItemContent: { default: 'PH Content' },
-      portfolioItemVideo: { default: 'https://holden.com.au/resources/media/videos/commodore/2017/2017-01-commodore-svp-overview-hero.mp4' },
-      portfolioItemPoster: { default: 'https://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg' },
-      portfolioItemIcon: { default: '↛' },
-      portfolioItemHref: { default: '' }
-    }
+export default {
+  name: 'portfolio',
+  components: {
+    AppButton
+  },
+  props: {
+    portfolioItemMediaLeft: { default: true },
+    portfolioItemHeading: { default: 'PH Heading' },
+    portfolioItemContent: { default: 'PH Content' },
+    portfolioItemVideo: { default: 'https://holden.com.au/resources/media/videos/commodore/2017/2017-01-commodore-svp-overview-hero.mp4' },
+    portfolioItemPoster: { default: 'https://res.cloudinary.com/dvjpaoffl/image/upload/w_1000,c_fill,f_auto,q_auto:best/v1491715724/portfolio/commodore-motorsport.jpg' },
+    portfolioItemIcon: { default: '↛' },
+    portfolioItemHref: { default: '' }
   }
+}
 </script>
-
-
 
 <style>
 .portfolio-item__media {
