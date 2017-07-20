@@ -8,8 +8,10 @@
 
     .layout.layout--center
       .layout__item.w-50
-        p Feel free to contact me by filling out the form below.
-        app-form
+        p.mb-2 This site is still under construction. There will be a form here soon. 
+        p In the meantime you can send an email to 
+          a(href='mailto:kaydwithers@gmail.com') kaydwithers@gmail.com.
+        // app-form
 
 </template>
 
