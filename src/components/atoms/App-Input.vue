@@ -1,10 +1,9 @@
 <template lang="pug">
 input.db.w-100.p-1(
-  id='"#" + "name"' 
   type='text' 
   :name='name' 
   :placeholder='placeholder' 
-  v-model='name' 
+  required
 )
 </template>
 
@@ -19,12 +18,12 @@ export default {
 </script>
 
 <style>
-input {
+input, textarea {
 
 }
 
 ::placeholder {
   color: var(--gray);
-  font-size: 1rem;
+  font-size: .875rem;
 }
 </style>

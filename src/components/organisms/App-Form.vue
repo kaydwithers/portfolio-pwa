@@ -1,12 +1,17 @@
 <template lang="pug">
-form.form(name='contact' action='thank-you' netlify)
-  app-form-item(text='Hello' name='firstName' placeholder='Enter Name' labelText='Name')
-  app-form-item(text='Hello' name='firstName' placeholder='Enter Email' labelText='Email')
+form.form(name='contact' action='thank-you' data-netlify='true' netlify-honeypot='bot-field')
+  app-form-item(name='name' placeholder='Enter Name' labelText='Name')
+  app-form-item(name='email' placeholder='Enter Email' labelText='Email')
+  app-form-item(isTextarea name='message' placeholder='Enter message' labelText='Message')
+  label.d-n Don’t fill this out: 
+    input(name='bot-field')
+
   app-button( 
-    :linkHref='portfolioItemHref' 
+    isSubmit
     linkText='Submit'
     :linkIcon='portfolioItemIcon' 
   )
+
 </template>
 
 <script>

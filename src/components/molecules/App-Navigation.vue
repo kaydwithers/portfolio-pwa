@@ -6,7 +6,8 @@
       @click.native='$store.state.toggle.menuActive = !$store.state.toggle.menuActive' 
       v-show='$store.state.toggle.menuActive' 
       to='/'
-    ) 🏡
+    ) 🏡 
+      .h6.d-i| Home
 
   transition(name='fade')
     div(v-show='$store.state.toggle.menuActive')

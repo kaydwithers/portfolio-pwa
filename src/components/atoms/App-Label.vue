@@ -1,10 +1,6 @@
 <template lang="pug">
-label.h5.d-b.mb-1(
-  for='name'
-  id="'#' + 'name'" 
-  type='text' 
-  name='labelName' 
-  :placeholder='labelPlaceholder'
+label.h6.d-b(
+  :for='labelName' 
 ) {{ labelText }}
   span(v-if='required') *
 </template>
@@ -13,9 +9,8 @@ label.h5.d-b.mb-1(
 export default {
   name: 'app-label',
   props: {
-    labelName: { type: String, default: '[PH] Name' },
-    labelPlaceholder: { type: String, default: '[PH] Placeholder' },
-    labelText: { type: String, default: '[PH] labelText' }
+    labelName: { default: '[PH] Name' },
+    labelText: { default: '[PH] labelText' }
   }
 }
 </script>

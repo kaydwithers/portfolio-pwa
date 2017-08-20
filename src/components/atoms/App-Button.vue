@@ -1,9 +1,19 @@
 <template lang="pug">
+button.link.d-ib.h6.black.p-r(
+  v-if='isSubmit' 
+  type='submit' 
+)
+  | {{ linkText }} 
+  span(
+    aria-hidden='true'
+  ) {{ linkIcon }}
+
 a.link.d-ib.h6.black.p-r(
+  v-else
   rel='noopener noreferrer' 
   role='button' 
-  target='_blank' 
-  :href='linkHref'
+  :target='target' 
+  :href='linkHref' 
 )
   | {{ linkText }} 
   span(
@@ -17,12 +27,18 @@ export default {
   props: {
     linkHref: { default: 'https://holden.com.au/cars/commodore' },
     linkText: { default: 'Visit site' },
-    linkIcon: { default: '↛' }
+    linkIcon: { default: '↛' },
+    isSubmit: { default: false },
+    target: { default: '_blank' }
   }
 }
 </script>
 
 <style>
+button {
+  
+}
+
 .link {
   bottom: -6px;
   overflow: hidden;
